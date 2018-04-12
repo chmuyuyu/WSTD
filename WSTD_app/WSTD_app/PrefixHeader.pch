@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  WSTD_app
+//
+//  Created by 宝视达 on 2018/3/26.
+//  Copyright © 2018年 baoshida. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+
+// Base
+
+// Function
+
+// Category
+#import "UIColor+Extension.h"
+#import "UIView+Extension.h"
+// Macro
+#import "WZXConfig.h"
+#import "WDMacro.h"
+#import "WDUtilMethod.h"
+
+// Vendor
+#import "Masonry.h"
+#import "MBProgressHUD.h"
+#import <AFNetworking.h>
+#endif
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

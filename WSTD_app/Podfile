@@ -1,0 +1,8 @@
+platform:ios,'8.0'
+target "WSTD_app" do
+pod 'AFNetworking'
+pod 'MBProgressHUD'
+pod 'MJExtension'
+pod 'Masonry'
+pod 'MBProgressHUD'
+end
